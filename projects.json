@@ -1,0 +1,76 @@
+[
+    {"ID":"esaStage",
+    "Titre":"WeGuide" ,
+    "Type": [
+      {"Nom":"Web"},
+      {"Nom":"Professional"},
+      {"Nom":"UML"},
+      {"Nom":"PHP"},
+      {"Nom":"SQL"},
+      {"Nom":"Wordpress"},
+      {"Nom":"HTML/CSS"},
+      {"Nom":"JS/JQuery"}
+    ],
+    "Accroche":"WeGuide is a community website for mountain sports customers and instructors. It allows the costomer to reserve lessons with professional or unprofessional instructors.",
+    "Description":"I made this project on WordPress in a team of 5 students during my University. This is a professional project for a ski school. We made specification with UML. Like I tell you, we used wordpress with database.</br> On this project, my co-worker and me design website using CSS and JQuery. We also develop a plugin that permits to generate a map with marker for different ski stations using library open street map." ,
+    "Image" : [
+      {"ID":"img1","URL" : "Images/WeGuide1.jpg"},
+      {"ID":"img1","URL" : "Images/WeGuide2.jpg"},
+      {"ID":"img1","URL" : "Images/WeGuide3.jpg"},
+      {"ID":"img1","URL" : "Images/WeGuide4.jpg"},
+      {"ID":"img1","URL" : "Images/WeGuide5.jpg"}
+    ]},
+    
+    {"ID":"Fnac",
+    "Titre":"Fnac book" ,
+    "Type": [
+      {"Nom":"Web"},
+      {"Nom":"School"},
+      {"Nom":"PHP"},
+      {"Nom":"SQL"},
+      {"Nom":"Laravel"},
+      {"Nom":"HTML/CSS"}
+    ],
+    "Accroche":"During my second year at university, we develop in a team of 5 students a website to sell books. The website allows different types of users. Customer's account that permit buying book, keep commenting on book buy, add to favorite and like or report commentary of other users. The communication department account that permit to remove report of user or remove commentary that's report. Sales service that permit to see all orders, to pass an order in expedition. Database permite to manage stock.",
+    "Description":"In this project, I made a little of css with a co-worker. And I develop different features like user connexion system, put commentary on the book if you buy it, like or report commentary. All of that permit to train my skill in PHP and SQL.",
+    "Image" : [
+      {"ID":"img1","URL" : "Images/fnac1.png"},
+      {"ID":"img2","URL" : "Images/fnac2.png"},
+      {"ID":"img1","URL" : "Images/fnac3.png"},
+      {"ID":"img2","URL" : "Images/fnac4.png"}
+    ]},
+
+    { "ID":"NotAlone",
+    "Titre":"Not alone" ,
+    "Type": [
+      {"Nom":"School"},
+      {"Nom":"Unity"},
+      {"Nom":"C#"},
+      {"Nom":"Game"}
+    ],
+    "Accroche":"Not alone is a video game made on Unity 3d with C#. I develop this game with 3 others students in a week for a school project. This week was really rewarding experience. Game purpose is to survive to infinite wave of alien increasingly hard. You start with a handgun, and you have to kill all of them to get points. You can open door to discover all the maps with the point and you can buy ammo or buy upgrades for the handgun.",
+    "Description":"During this project, I was able to give free rein to my imagination. I imagined and created and texture of most 3d models like the alien model made in zbrush then on blender and texture with quixel. I also develop script of the AI of the alien, the alien spawner and the ammo dispenser. And I have done part of level design with another co-worker.",
+    "Image" : [
+      {"ID":"img1","URL" : "Images/NotAlone1.png"},
+      {"ID":"img1","URL" : "Images/NotAlone3.png"},
+      {"ID":"img2","URL" : "Images/NotAlone4.png"},
+      {"ID":"img2","URL" : "Images/NotAlone6.png"},
+      {"ID":"img1","URL" : "Images/NotAlone7.png"}
+    ]},
+
+    { "ID":"Bomberman",
+    "Titre":"Bomberman" ,
+    "Type": [
+      {"Nom":"School"},
+      {"Nom":"C/C++"},
+      {"Nom":"SFML"},
+      {"Nom":"Game"}
+    ],
+    "Accroche":"Bomberman like being name indicate is a Bomberman like. I develop this game in C++ with SFML during my first year at university in solo during around 3 months. Bomberman is a game you can play between 2 and 4 players. Game purpose is to destroy brick walls with your bomb to get some bonus and to eliminate enemies with your bomb and to stay the last in life. You can play against AI or against other players on the same keyboard or against AI and others players. If you want, you can also watch the AI fight with each other and bet on AI with your friends.",
+    "Description":"This project was very interesting for me. Because this allowed me to have a better understanding how work a game. I develop player action and input with AI of character and also random map generation, randomly generated of the bonus.",
+    "Image" : [
+      {"ID":"img1","URL" : "Images/Bomberman1.png"},
+      {"ID":"img2","URL" : "Images/Bomberman2.png"},
+      {"ID":"img1","URL" : "Images/Bomberman3.png"}
+    ]}
+]

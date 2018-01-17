@@ -1,0 +1,749 @@
+:root {
+  --main-bg-color: #FFA726;
+}
+*
+{
+	text-align:justify;
+	
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url('public/Roboto-Regular.ttf');
+}
+@font-face {
+	font-family: "Roboto";
+	font-style: italic;
+	src: url('public/Roboto-MediumItalic.ttf');
+}
+@font-face {
+	font-family: "Roboto";
+	font-weight: bold;
+	src: url('public/Roboto-Bold.ttf');
+}
+
+body
+{
+	font-family: "Roboto";
+	margin-left:0px;
+	margin-right:0px;
+}
+
+header
+{
+	left:0;
+	right:0;
+	z-index:20;
+	top:0px;
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	position:fixed;
+	background-color:#FFA726;
+}
+
+h6
+{
+	margin-bottom:3px;
+	margin-top:3px;
+	text-align:center;
+}
+
+#nameDiv
+{
+	width:30%;
+	padding-top:0px;
+	padding-bottom:0px;
+	background-color:white;
+}
+#name
+{
+	font-size:50px;
+	color:#FFA726;
+	text-align:center;
+}
+
+#menu
+{
+	width:70%;
+	margin:auto;
+}
+
+.NavTypes
+{
+	position: relative;
+
+	top: -300px;
+	left:30%;
+	width: 65%;
+	height: auto;
+	display: flex;
+	flex-direction: row; 
+
+}
+
+.TypeSelNav
+{
+	padding: 15px;
+	font-size:  30px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	transition: 0.7s all;
+	background-color: white;
+	color: #FFA726;
+}
+
+.TypeSelNav:hover
+{
+	transform: scale(1.2);
+	cursor: pointer;
+}
+
+.typeChoose
+{
+	color: white;
+	background-color: #FFA726;
+}
+	
+
+a,li,ul
+{
+	list-style:none;
+	text-decoration:none;
+}
+
+a{
+	padding:15px;
+	font-size:25px;
+	font-weight:bold;
+	margin-left:5px;
+	margin-right:5px;
+	color:white;
+	transition: all 0.5s;
+	border:3px solid transparent;
+	border-radius:5px;
+}
+
+a:active{
+	color:white;
+	background-color:white;
+	color:#FFA726;
+	border:3px solid black;
+}
+
+a:hover{
+	color:white;
+	background-color:white;
+	color:#FFA726;
+	border:3px solid transparent;
+}
+
+.active{
+	background-color:white;
+	color:#FFA726;
+}
+
+#thibault
+{
+	padding:0px;
+	margin:0px;
+	border:0px solid transparent;
+}
+
+#menuList
+{
+	margin:10px;
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+}
+
+.FlexDiv
+{
+	display:flex;
+	flex-direction:row;
+}
+
+.School,.Work,.Reference
+{
+	display: flex;
+	flex-direction: row;
+}
+
+
+
+.diploma
+{
+	width:112px;
+	height:112px;
+}
+
+img
+{
+	padding: 0px;
+	margin: 0px;
+
+}
+
+.BetweenStage{
+	position: relative;
+	z-index: 12;
+	width:100%;
+	height:90px;
+	background: url("Images/solTransit.png");
+}
+
+#Stage1,#Stage2, #Stage3, #Stage4, #Stage5, #Stage6
+{
+	width:100%;
+	height:800px;
+	padding: 0px;
+	margin: 0px;
+	background: url("Images/backgroundsite.png");
+}
+
+.topProject
+{
+	width:100%;
+	height:800px;
+	padding: 0px;
+	margin: 0px;
+	background: url("Images/TopProject.png");
+}
+
+.botProject
+{
+	width:100%;
+	height:800px;
+	padding: 0px;
+	margin: 0px;
+	background: url("Images/BotProject.png");
+}
+
+.midProject
+{
+	width:100%;
+	height:800px;
+	padding: 0px;
+	margin: 0px;
+	background: url("Images/midProject.png");
+}
+
+#soloStage
+{
+	background: url("Images/backgroundsite.png");
+}
+
+#main_img
+{
+	left:0;
+	right:0;
+	margin-top:120px;
+	width:100%;
+	height:800px;
+}
+.main_img_allumé
+{
+	background: url("Images/backgroundsite.png");
+}
+
+.main_img_eteint
+{
+	background: url("Images/BackgroundEteint.png");
+}
+
+.CanvasProgressBar
+{
+	height:70;
+	width:70;
+	display:absolute;
+	z-index:50;
+}
+
+#Ref1,#Ref2,.RefContact
+{
+	padding-right: 25px;
+	padding-left: 25px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+tr
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;	
+}
+
+h3
+{
+	margin-bottom: 10px;
+}
+
+.RefPres
+{
+	font-size: 34px;
+	font-weight: bold;
+}
+
+.mailLink
+{
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+}
+
+.RefRes,.RefContact
+{
+	font-size: 22px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.RefContact
+{
+	text-align: center;
+}
+
+#character
+{
+	z-index:10;
+	position : absolute;
+	top:700px;
+	left:90%;
+	width:128.8px;
+	height:173px;
+	background: url("Images/robotleft-small.png");
+}
+
+.runner-right
+{
+	--webkit-animation: run 0.6s steps(5) infinite;
+	animation: run 0.6s steps(5) infinite;
+}
+.runner-left
+{
+	width:128.8px;
+	height:173px;
+	background: url("Images/robotleft-small.png");
+	--webkit-animation: run 0.8s steps(5) infinite;
+	animation: run 0.6s steps(5) infinite;
+}
+@-webkit-keyframes run{
+	from { background-position:0px;}
+	to {background-position:-644px;}
+}
+@keyframes run{
+	from { background-position:0px;}
+	to {background-position:-644px;}
+}
+
+.TextSkillDescritption
+{
+	visibility: hidden;
+}
+
+.LinkLinkedin,.LinkLinkedin:active,.LinkLinkedin:hover,
+.LinkMail,.LinkMail:active,.LinkMail:hover,
+.LinkCV,.LinkCV:active,.LinkCV:hover
+{
+	width: 85px;
+	height: 85px;
+	margin: 10px;
+	padding: 0px;
+	transition: 0.5s all;
+	background: transparent;
+}
+
+
+
+.LinkMail:hover,.LinkLinkedin:hover,.LinkCV:hover
+{
+	transform: scale(1.5);
+}
+
+.mail,.mail:active,.mail:hover
+{
+	font-size: 18px;
+	margin: 5px;
+	margin-bottom: 25px;
+	padding: 5px;
+	background: transparent;
+	color: black;
+}
+
+.LinkList
+{
+	text-align: center;
+}
+
+.MailContent
+{
+	padding-bottom: 25px;
+	font-weight: bold;
+}
+
+.RefContact
+{
+	padding-top: 35px;
+}
+
+.divContent
+{
+	height:800px;
+	position:absolute;
+	width:100%;
+	
+}
+
+.divContentbis
+{
+	height:800px;
+	position:absolute;
+	width:100%;
+	
+}
+
+.DateWork
+{
+	margin:15px;
+	font-weight:bold;
+	font-size:36px;
+}
+
+.ContentWork
+{
+	margin-bottom:50px;
+	font-size:28px;
+}
+
+.TextContentDiv
+{
+	height:auto;
+	font-size:35px;
+	background-color: rgba(255,255,255,0.8);
+	position:absolute;
+	width:65%;
+	top:75px;
+	left:30%;
+}
+
+#TextProjects
+{
+	display:flex;
+	flex-direction:column;
+	height: auto;
+	padding-top: 20px;
+}
+
+#TextEducation
+{
+	font-size:20px;
+}
+
+.TitleRot
+{
+	transition: 0.5s all;
+}
+
+.TitleRot:hover
+{
+	transform: rotate(360deg);
+}
+
+#designIUT
+{
+	margin-top: 35px;
+}
+
+.diploma
+{
+	transition: 0.5s all;
+}
+
+.diploma:hover
+{
+	transform: rotate(360deg);
+}
+
+#CadreThibault
+{
+	position:absolute;
+	top:320px;
+	left:230px;
+	height:170px;
+	width:150px;
+	background:url('Images/CadreTibo.png');
+}
+
+#Presentation
+{
+	margin-right: 15px;
+	margin-left: 15px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid grey;
+}
+
+#TextPersonal
+{
+	text-align:justify;
+}
+
+#TitleSkills,#TitlePersonal,#TitleEducation,#TitleProjects,
+#TitleHobbies,#TitleReferences
+{
+	position:absolute;
+	top:100px;
+	left:200px;
+	font-size:86px;
+	color:#FFA726;
+	text-shadow:0px 0px 50px #FFA726,0px 0px 10px black;
+	transform:rotate(-30deg);
+}
+#TitleEducation,#TitleReferences
+{
+	left:160px;
+	font-size:58px;
+}
+#TitleHobbies
+{
+	left:170px;
+	font-size:72px;
+}
+
+#Hobbie
+{
+	padding: 15px;
+}
+
+#TitlePersonal
+{
+	left:155px;
+	font-size:68px;
+}
+
+
+#LanguageSkills,#SoftwareSkills,#DevelopmentSkills
+{
+	text-align:center;
+}
+
+
+#DevantureElevatorStage0
+{
+	z-index:13;
+	position : absolute;
+	top:280px;
+	left:0px;
+	width:39px;
+	height:643px;
+	background: url("Images/DevantureAscenseur.png");
+}
+
+.Plateform
+{
+	z-index:5;
+	position : relative;
+	top:850px;
+	left:-10px;
+	width:460px;
+	height:220px;
+	background: url("Images/pateform.png");
+}
+
+.projectPres
+{
+	background-color: transparent;
+	position: relative;
+	top:70px;
+	left: 180px;
+	height: auto;
+	width: 81%;
+	display: flex;
+	flex-direction: row;
+}
+
+.projectPresBot
+{
+	background-color: transparent;
+	position: relative;
+	top:-630px;
+	left: 180px;
+	height: auto;
+	width: 81%;
+	display: flex;
+	flex-direction: row;
+}
+
+.mainProjectImg
+{
+	height: 75%;
+	width: 100%;
+	transition: 1s all;
+}
+
+.SelectionImg
+{
+	height: 25%;
+	width: 100%;
+	background-color:transparent;
+}
+
+.imageNav
+{
+	border: 0px transparent solid;
+	transition: 0.2s all;
+	max-height: 175px;
+	top:0px;
+}
+
+.imageNav:hover
+{
+	transform: scale(1.1);
+	cursor: pointer;
+
+}
+
+.imageSelect
+{
+	border: 0px  #FFA726 solid;
+}
+
+.imageProject
+{
+	background-color:transparent;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+
+.descriptionProject
+{
+	background-color: #EEEEEE;
+	width: 50%;
+	padding: 15px;
+}
+
+.NavType
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.TypeLogo
+{
+	background-color: #2196F3;
+	color: white;
+	border-radius: 10px;
+	padding: 5px;
+	margin: auto;
+}
+
+h2
+{
+	text-align: center;
+	color: #FFA726;
+}
+
+
+
+.DevantureElevator
+{
+	z-index:13;
+	position : relative;
+	top:157px;
+	left:0px;
+	width:39px;
+	height:643px;
+	background: url("Images/DevantureAscenseur.png");
+}
+
+#Elevatormain_img,#ElevatorPersonal,#ElevatorSkills,#ElevatorEducation
+,#ElevatorProjects,#ElevatorHobbies,#ElevatorReferences,#ElevatortopProject,#ElevatorbotProject,#ElevatorHobbie
+{
+	z-index:8;
+	position : absolute;
+	top:346px;
+	left:0px;
+	width:169px;
+	height:582px;
+	background: url("Images/ElevatorAnim.png");
+}
+#ElevatorPersonal,#ElevatorSkills,#ElevatorEducation
+,#ElevatorProjects,#ElevatorHobbies,#ElevatorReferences,#ElevatortopProject,#ElevatorbotProject,#ElevatorHobbie
+{
+	top:223px;
+}
+
+
+.ElevatorOpen{
+	--webkit-animation: Open 0.55s steps(20);
+	animation: Open 0.55s steps(20) ;
+	animation-fill-mode:forwards;
+	
+}
+
+@-webkit-keyframes Open{
+	from { background-position:-0px;}
+	to {background-position:-3380px;}
+}
+@keyframes Open{
+	from { background-position:-0px;}
+	to {background-position:-3380px;}
+}
+
+.ElevatorClose{
+	--webkit-animation: Close 0.55s steps(20);
+	animation: Close 0.55s steps(20) ;
+	animation-fill-mode:forwards;
+}
+
+@-webkit-keyframes Close{
+	from { background-position:-3380px;}
+	to {background-position:-6760px;}
+}
+@keyframes Close{
+	from { background-position:-3380px;}
+	to {background-position:-6760px;}
+}
+
+.robotMSG
+{
+	position: absolute;
+	background-color: transparent;
+	transition: 0.2s all;
+	max-width: 300px;
+	z-index: 50;
+	padding: 25px;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+.ProjectTitle
+{
+	font-size: 52px;
+	color: #FFA726;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.TextProject
+{
+	font-size: 19px;
+}
+
+#TextHobbie
+{
+	
+}
+
+.nameDiploma
+{
+	color: black;
+}
